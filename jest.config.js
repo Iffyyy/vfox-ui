@@ -11,7 +11,7 @@ module.exports = {
     "^@/(.*)$": "<rootDir>/src/$1", // // 支持源代码中相同的 `@` -> `src` 别名
     // "vfox-ui/(.*)$": "<rootDir>/packages/$1"
   },
-  transformIgnorePatterns: ["<rootDir>/node_modules/(?!(cloud-common|ant-design-vue)/)"],
+  transformIgnorePatterns: ["<rootDir>/node_modules/(?!ant-design-vue/)"],
   snapshotSerializers: ["jest-serializer-vue"],
   testMatch: [
     "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)",
@@ -22,9 +22,6 @@ module.exports = {
   coverageDirectory: './docs/unit-test-coverage', // 目标输出目录
   collectCoverageFrom: [ // 定义需要收集测试覆盖率信息的文件
     "packages/**/*.{js,ts,vue}",
-    "!packages/cloud-upload/*.{js,ts,vue}",
-    "!packages/cloud-double-upload/*.{js,ts,vue}",
-    "!packages/cloud-navTabs/*.{js,ts,vue}",
     "!src/App.vue", // 入口文件排除
     "!src/main.js", // 设置文件排除
     "!src/router/index.js",

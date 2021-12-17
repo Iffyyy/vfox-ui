@@ -50,5 +50,5 @@ module.exports = {
             .loader('url-loader')
             .tap(options => Object.assign(options, { limit: 10240, esModule: false }))
     },
-    transpileDependencies: ["cloud-common","cloud-components", "ant-design-vue"],
+    transpileDependencies: ["vfox-ui", "ant-design-vue"],
 }
