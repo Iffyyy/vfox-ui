@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VfButtonGroup 测试DOM结构 1`] = `<div class="ant-btn-group vf-button-group"><button type="button" class="ant-btn ant-btn-cloud vf-button"><span>Button1</span></button><button type="button" class="ant-btn ant-btn-cloud vf-button"><span>Button2</span></button></div>`;
