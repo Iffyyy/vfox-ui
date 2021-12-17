@@ -16,7 +16,7 @@
     "lib": "node config/common/lib.js",
     "doc": "vuepress dev docs",
     "doc:build": "vuepress build docs",    
-    "deploy": "gh-pages -d /.vuepress/dist",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
     "deploy:build": "npm run doc:build && gh-pages -d docs/.vuepress/dist"
   },
   "dependencies": {
