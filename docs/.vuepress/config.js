@@ -9,7 +9,7 @@ module.exports = (options, context) => ({
       { text: "首页", link: "/" },
       {
         text: "单测覆盖率",
-        link: "/unit-test-coverage/lcov-report/index.html/",
+        link: "https://iffyyy.github.io/vfox-ui/unit-test-coverage/lcov-report/index.html",
       },
     ],
     sidebar: [
