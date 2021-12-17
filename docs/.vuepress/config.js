@@ -3,13 +3,13 @@ const themeSetting = require("../../config/antdv/theme");
 module.exports = (options, context) => ({
   title: "vfox-ui组件库",
   description: "基于antdv封装的UI组件库",
-  // base: './',
+  base: '/vfox-ui/',
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
       {
         text: "单测覆盖率",
-        link: "/unit-test-coverage/lcov-report/index.html",
+        link: "/unit-test-coverage/lcov-report/index.html/",
       },
     ],
     sidebar: [

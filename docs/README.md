@@ -2,8 +2,6 @@
 home: true
 actionText: 组件库文档 →
 actionLink: /pages/guide/
-actionText1: 组件测试页 →
-actionLink1: /pages/test/test
 features:
 - title: antdv
   details: 基于Ant Design of Vue。
