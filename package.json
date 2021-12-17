@@ -15,7 +15,7 @@
     "lint": "vue-cli-service lint",
     "lib": "node config/common/lib.js",
     "doc": "vuepress dev docs",
-    "doc:build": "vuepress build docs",    
+		"doc:build": "node config/common/buildDoc.js",
     "deploy": "gh-pages -d docs/.vuepress/dist",
     "deploy:build": "npm run doc:build && gh-pages -d docs/.vuepress/dist"
   },
